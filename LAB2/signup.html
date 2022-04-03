@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="main.css" rel=“stylesheet” type=“text/css”>
+        <h1>Welcome to sign up page!</h1>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <label for="user-name">이름: </label>
+                <input type="text" id="user-name" autofocus>
+            </li>
+            <li>
+                <label for="birth-date">생년월일: </label>
+                <input type="date" min="1900-01-01" id="birth-date">
+            </li>
+            <li>
+                <label for="age">학년: </label>
+                <input type="number" id="age" step="1" min="1" max="4">
+            </li>
+            <li>
+                <label for="age">나이: </label>
+                <input type="number" id="age" step="1" min="0">
+            </li>
+            <li>
+                <label for="user-id">id: </label>
+                <input type="text" id="user-id" placeholder="id를 입력하세요" required>
+            </li>
+            <li>
+                <label for="user-pswd">password: </label>
+                <input type="password" id="user-pswd" placeholder="####" pattern="[0-9]{4}" required>
+            </li>
+        </ul>
+        <p>
+            <button type="submit">Signup</button>
+            <button type="reset">cancel</button>
+        </p>
+        <a href="file:///D:/%EC%9D%B8%ED%84%B0%EB%84%B7%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/HomeworkRepository/LAB2/login.html">
+            <button type="button" class="lgn-bttn">login page</button>
+        </a>
+    </body>
+</html>
