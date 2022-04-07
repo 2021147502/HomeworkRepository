@@ -1,0 +1,94 @@
+body {
+    font-family: Cambria;
+    font-size: large;
+    background-color: blanchedalmond;
+    width: 1020px;
+    position: absolute;
+    top: 0%;
+    left: 50%;  
+    margin: auto -510px;
+}
+
+/*login, signup*/
+#bdul {
+    list-style: none;
+    border: 1px solid black;
+}
+#buttons {
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+.lgn-bttn {
+    background-color: greenyellow;
+    width: 120px;
+    height: 30px;
+}
+
+/*index.html*/
+header {
+    background-color: white;
+    border: 10px double black;
+    margin: 10px auto;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: block;
+    margin: 0px 5px;
+    float: right;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+@keyframes slide-hdr {
+    from {transform: translate(800px);}
+    to {transform: translate(0px);}
+}
+#hdr-h {
+    /*animation: slide-hdr 2s normal 1 linear;*/
+    animation-name: slide-hdr;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.itemBox {
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    width: 480px;
+    height: 600px;
+    margin: 10px;
+    border: 5px solid black;
+    background-color: white;
+}
+.itemBox2 {
+    position: absolute;
+    right: 0px;
+    top: 160px;
+    width: 480px;
+    height: 600px;
+    margin: 10px;
+    border: 5px solid black;
+    background-color: white;
+}
+.img1 {
+    transition: 1s;
+}
+.img1:hover {
+    transform: rotate(360deg);
+    width: 480px;
+    height: 600px;
+}
+.img2 {
+    transition: 2s;
+}
+.img2:hover {
+    width: 480px;
+    height: 600px;
+}
