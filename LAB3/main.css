@@ -5,7 +5,7 @@ body {
     width: 1020px;
     position: absolute;
     top: 0%;
-    left: 50%;  
+    left: 50%;
     margin: auto -510px;
 }
 
@@ -31,6 +31,7 @@ header {
     border: 10px double black;
     margin: 10px auto;
 }
+
 nav ul{
     list-style: none;
 }
@@ -48,7 +49,7 @@ a:hover {
     text-decoration: underline;
 }
 @keyframes slide-hdr {
-    from {transform: translate(800px);}
+    from {transform: translate(1020px);}
     to {transform: translate(0px);}
 }
 #hdr-h {
@@ -79,16 +80,19 @@ a:hover {
 }
 .img1 {
     transition: 1s;
+    position: absolute;
+    left: 115px;
+    top: 120px;
 }
 .img1:hover {
     transform: rotate(360deg);
-    width: 480px;
-    height: 600px;
 }
 .img2 {
     transition: 2s;
+    position: absolute;
+    left: 180px;
+    top: 225px;
 }
 .img2:hover {
-    width: 480px;
-    height: 600px;
+    transform: scale(4, 4);
 }
